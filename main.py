@@ -46,10 +46,12 @@ grafoTest.addArista('E', 'D', 8)
 
 origenG = 'A'
 destinoG = 'E'
+path ={}
 path[origenG] = {'-':0}
-llaves = grafoTest.aristas['A'].keys()
+llaves = grafoTest.aristas[origenG].keys()
 print(llaves)
+verticeAct = 'B'
 for i in llaves:
-    path[i]={origenG: grafoTest.aristas}
-   
-print(grafoTest.aristas[origenG])
+    path[i]={origenG: grafoTest.aristas[origeng][i]}
+print(grafoTest)   
+print(grafoTest)
